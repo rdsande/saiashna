@@ -49,7 +49,7 @@
         var moneyFormat = wNumb({
             decimals: 0,
             thousand: ",",
-            prefix: "$"
+            prefix: "Sh."
         });
         noUiSlider.create(rangeSlider, {
             start: [500, 1000],
@@ -523,7 +523,7 @@
         }
     });
 
-    $('.btn-close').on('click', function(e) {
+    $('.btn-close').on('click', function (e) {
         $('.zoomContainer').remove();
     });
 
